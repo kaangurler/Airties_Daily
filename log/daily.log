@@ -1,0 +1,126 @@
+2022-11-28 18:58:00.683  INFO 3432 --- [restartedMain] c.h.TeachCareerAirtiesBlogApplication    : Starting TeachCareerAirtiesBlogApplication using Java 19.0.1 on DESKTOP-3DJM2SE with PID 3432 (C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master\target\classes started by gurle in C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master)
+2022-11-28 18:58:00.685  INFO 3432 --- [restartedMain] c.h.TeachCareerAirtiesBlogApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-28 18:58:00.732  INFO 3432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-28 18:58:00.733  INFO 3432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-28 18:58:01.412  INFO 3432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 18:58:01.462  INFO 3432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2022-11-28 18:58:02.000  INFO 3432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2022-11-28 18:58:02.008  INFO 3432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-28 18:58:02.008  INFO 3432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-28 18:58:02.080  INFO 3432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-28 18:58:02.081  INFO 3432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1348 ms
+2022-11-28 18:58:02.104  INFO 3432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-28 18:58:02.327  INFO 3432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-28 18:58:02.337  INFO 3432 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/daily_database'
+2022-11-28 18:58:02.466  INFO 3432 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 18:58:02.525  INFO 3432 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-28 18:58:02.672  INFO 3432 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-28 18:58:02.771  INFO 3432 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-28 18:58:03.320  INFO 3432 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 18:58:03.327  INFO 3432 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 18:58:03.768  WARN 3432 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 18:58:03.890  INFO 3432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-28 18:58:04.447  INFO 3432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 18:58:04.479  INFO 3432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2222 (http) with context path ''
+2022-11-28 18:58:04.489  INFO 3432 --- [restartedMain] c.h.TeachCareerAirtiesBlogApplication    : Started TeachCareerAirtiesBlogApplication in 4.178 seconds (JVM running for 4.98)
+2022-11-28 19:10:09.058  INFO 3432 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 19:10:09.061  INFO 3432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-28 19:10:09.062  INFO 3432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-28 19:12:03.216  INFO 13528 --- [restartedMain] c.h.TeachCareerAirtiesBlogApplication    : Starting TeachCareerAirtiesBlogApplication using Java 19.0.1 on DESKTOP-3DJM2SE with PID 13528 (C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master\target\classes started by gurle in C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master)
+2022-11-28 19:12:03.217  INFO 13528 --- [restartedMain] c.h.TeachCareerAirtiesBlogApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-28 19:12:03.261  INFO 13528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-28 19:12:03.262  INFO 13528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-28 19:12:04.009  INFO 13528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 19:12:04.063  INFO 13528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2022-11-28 19:12:04.637  INFO 13528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2022-11-28 19:12:04.644  INFO 13528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-28 19:12:04.645  INFO 13528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-28 19:12:04.724  INFO 13528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-28 19:12:04.725  INFO 13528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1463 ms
+2022-11-28 19:12:04.748  INFO 13528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-28 19:12:04.968  INFO 13528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-28 19:12:04.980  INFO 13528 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/daily_database'
+2022-11-28 19:12:05.093  INFO 13528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 19:12:05.144  INFO 13528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-28 19:12:05.296  INFO 13528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-28 19:12:05.399  INFO 13528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-28 19:12:05.985  INFO 13528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 19:12:05.993  INFO 13528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 19:12:06.700  WARN 13528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 19:12:07.006  INFO 13528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-28 19:12:07.697  INFO 13528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 19:12:07.728  INFO 13528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2222 (http) with context path ''
+2022-11-28 19:12:07.737  INFO 13528 --- [restartedMain] c.h.TeachCareerAirtiesBlogApplication    : Started TeachCareerAirtiesBlogApplication in 4.915 seconds (JVM running for 5.68)
+2022-11-28 19:33:42.018  INFO 13528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 19:33:42.022  INFO 13528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-28 19:33:42.024  INFO 13528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-28 19:45:37.030  INFO 21944 --- [restartedMain] c.d.TeachCareerAirtiesBlogApplication    : Starting TeachCareerAirtiesBlogApplication using Java 19.0.1 on DESKTOP-3DJM2SE with PID 21944 (C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master\target\classes started by gurle in C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master)
+2022-11-28 19:45:37.031  INFO 21944 --- [restartedMain] c.d.TeachCareerAirtiesBlogApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-28 19:45:37.098  INFO 21944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-28 19:45:37.098  INFO 21944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-28 19:45:37.780  INFO 21944 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 19:45:37.831  INFO 21944 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2022-11-28 19:45:38.427  INFO 21944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2022-11-28 19:45:38.437  INFO 21944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-28 19:45:38.437  INFO 21944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-28 19:45:38.521  INFO 21944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-28 19:45:38.521  INFO 21944 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1422 ms
+2022-11-28 19:45:38.548  INFO 21944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-28 19:45:38.785  INFO 21944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-28 19:45:38.794  INFO 21944 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/daily_database'
+2022-11-28 19:45:38.916  INFO 21944 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 19:45:38.969  INFO 21944 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-28 19:45:39.127  INFO 21944 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-28 19:45:39.241  INFO 21944 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-28 19:45:39.827  INFO 21944 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 19:45:39.834  INFO 21944 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 19:45:40.364  WARN 21944 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 19:45:40.507  INFO 21944 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-28 19:45:41.160  INFO 21944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 19:45:41.198  INFO 21944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2222 (http) with context path ''
+2022-11-28 19:45:41.210  INFO 21944 --- [restartedMain] c.d.TeachCareerAirtiesBlogApplication    : Started TeachCareerAirtiesBlogApplication in 4.601 seconds (JVM running for 5.524)
+2022-11-28 19:46:59.359  INFO 21944 --- [http-nio-2222-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 19:46:59.360  INFO 21944 --- [http-nio-2222-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-28 19:46:59.361  INFO 21944 --- [http-nio-2222-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-28 19:46:59.652  WARN 21944 --- [http-nio-2222-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.daily.business.dto.DailyDto> com.daily.ui.api.impl.DailyApiImpl.updateDaily(java.lang.Long,com.daily.business.dto.DailyDto): [Field error in object 'dailyDto' on field 'email': rejected value [hamitmizrak@gmail.com]; codes [UserRegisterUniqueEmail.dailyDto.email,UserRegisterUniqueEmail.email,UserRegisterUniqueEmail.java.lang.String,UserRegisterUniqueEmail]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [dailyDto.email,email]; arguments []; default message [email]]; default message [There is such a user int the system  another email]] ]
+2022-11-28 19:47:31.212  WARN 21944 --- [http-nio-2222-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.daily.business.dto.DailyDto> com.daily.ui.api.impl.DailyApiImpl.updateDaily(java.lang.Long,com.daily.business.dto.DailyDto): [Field error in object 'dailyDto' on field 'email': rejected value [hamitmizrak@gmail.com]; codes [UserRegisterUniqueEmail.dailyDto.email,UserRegisterUniqueEmail.email,UserRegisterUniqueEmail.java.lang.String,UserRegisterUniqueEmail]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [dailyDto.email,email]; arguments []; default message [email]]; default message [There is such a user int the system  another email]] ]
+2022-11-28 19:47:38.087  WARN 21944 --- [http-nio-2222-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.daily.business.dto.DailyDto> com.daily.ui.api.impl.DailyApiImpl.updateDaily(java.lang.Long,com.daily.business.dto.DailyDto): [Field error in object 'dailyDto' on field 'email': rejected value [hamitmizrak@gmail.com]; codes [UserRegisterUniqueEmail.dailyDto.email,UserRegisterUniqueEmail.email,UserRegisterUniqueEmail.java.lang.String,UserRegisterUniqueEmail]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [dailyDto.email,email]; arguments []; default message [email]]; default message [There is such a user int the system  another email]] ]
+2022-11-28 19:47:46.491  WARN 21944 --- [http-nio-2222-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.daily.business.dto.DailyDto> com.daily.ui.api.impl.DailyApiImpl.updateDaily(java.lang.Long,com.daily.business.dto.DailyDto): [Field error in object 'dailyDto' on field 'email': rejected value [hamitmizrak@gmail.com]; codes [UserRegisterUniqueEmail.dailyDto.email,UserRegisterUniqueEmail.email,UserRegisterUniqueEmail.java.lang.String,UserRegisterUniqueEmail]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [dailyDto.email,email]; arguments []; default message [email]]; default message [There is such a user int the system  another email]] ]
+2022-11-28 19:48:31.679  WARN 21944 --- [http-nio-2222-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.daily.business.dto.DailyDto> com.daily.ui.api.impl.DailyApiImpl.updateDaily(java.lang.Long,com.daily.business.dto.DailyDto): [Field error in object 'dailyDto' on field 'email': rejected value [hamitmizrak@gmail.com]; codes [UserRegisterUniqueEmail.dailyDto.email,UserRegisterUniqueEmail.email,UserRegisterUniqueEmail.java.lang.String,UserRegisterUniqueEmail]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [dailyDto.email,email]; arguments []; default message [email]]; default message [There is such a user int the system  another email]] ]
+2022-11-28 19:54:57.983  INFO 21944 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 19:54:57.986  INFO 21944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-28 19:54:57.987  INFO 21944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-28 21:34:56.130  INFO 1908 --- [restartedMain] c.d.TeachCareerAirtiesBlogApplication    : Starting TeachCareerAirtiesBlogApplication using Java 19.0.1 on DESKTOP-3DJM2SE with PID 1908 (C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master\target\classes started by gurle in C:\Users\gurle\Desktop\files\TeachCareer_Airties_Daily-master)
+2022-11-28 21:34:56.132  INFO 1908 --- [restartedMain] c.d.TeachCareerAirtiesBlogApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-28 21:34:56.196  INFO 1908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-28 21:34:56.196  INFO 1908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-28 21:34:57.401  INFO 1908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 21:34:57.492  INFO 1908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2022-11-28 21:34:58.262  INFO 1908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2022-11-28 21:34:58.272  INFO 1908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-28 21:34:58.272  INFO 1908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-28 21:34:58.371  INFO 1908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-28 21:34:58.372  INFO 1908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2176 ms
+2022-11-28 21:34:58.397  INFO 1908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-28 21:34:58.679  INFO 1908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-28 21:34:58.689  INFO 1908 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/daily_database'
+2022-11-28 21:34:58.826  INFO 1908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 21:34:58.908  INFO 1908 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-28 21:34:59.096  INFO 1908 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-28 21:34:59.236  INFO 1908 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-28 21:34:59.934  INFO 1908 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 21:34:59.943  INFO 1908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 21:35:00.509  WARN 1908 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 21:35:00.659  INFO 1908 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-28 21:35:01.309  INFO 1908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 21:35:01.347  INFO 1908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2222 (http) with context path ''
+2022-11-28 21:35:01.359  INFO 1908 --- [restartedMain] c.d.TeachCareerAirtiesBlogApplication    : Started TeachCareerAirtiesBlogApplication in 5.771 seconds (JVM running for 7.022)
+2022-11-28 22:21:33.710  INFO 1908 --- [http-nio-2222-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 22:21:33.711  INFO 1908 --- [http-nio-2222-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-28 22:21:33.721  INFO 1908 --- [http-nio-2222-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-11-28 22:21:33.837  WARN 1908 --- [http-nio-2222-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.daily.exception.ResourceNotFoundException: 1 id bulunamadı]
+2022-11-28 22:22:53.675  WARN 1908 --- [http-nio-2222-exec-7] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.daily.exception.ResourceNotFoundException: 2 id bulunamadı]
+2022-11-28 22:23:04.912  WARN 1908 --- [http-nio-2222-exec-4] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.daily.exception.ResourceNotFoundException: 2 id bulunamadı]
+2022-11-28 22:46:18.912  INFO 1908 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 22:46:18.916  INFO 1908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-28 22:46:18.917  INFO 1908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,35 @@
+//SAVE
+POST /api/v1/daily/create HTTP/1.1
+Host: localhost:2222
+Content-Type: application/json
+{
+    "dailyHeader":"header",
+    "dailyContent":"içerik",
+    "email":"hamitmizrak@gmail.com",
+    "password":"Hm123456@"
+}
+
+//LIST
+GET /api/v1/daily/list HTTP/1.1
+Host: localhost:2222
+
+//FIND
+GET /api/v1/daily/find/1 HTTP/1.1
+Host: localhost:2222
+
+
+//UPDATE
+PUT /api/v1/daily/update/1 HTTP/1.1
+Host: localhost:2222
+Content-Type: application/json
+Content-Length: 143
+{
+    "dailyHeader":"header1111",
+    "dailyContent":"içerik1111",
+    "email":"hamitmizrak1111@gmail.com",
+    "password":"Hm12345611@"
+}
+
+//DELETE
+DELETE /api/v1/daily/delete/1 HTTP/1.1
+Host: localhost:2222

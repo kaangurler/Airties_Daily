@@ -1,0 +1,143 @@
+<!doctype html>
+<html th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Thymeleaf String</title>
+
+    <!-- Turkce karakter -->
+    <meta charset="utf-8">
+
+    <!-- responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- seo -->
+    <meta name="keywords" content="html5,css3,js,jquery,bootstrap,react,javase"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- react libraries -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <script th:src="@{/js/index.js}"></script>
+
+    <!-- dataTables CSS: paging and sorting -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.25/datatables.min.css"/>
+</head>
+
+<body class="container">
+<h1>Günlük</h1>
+
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <strong th:text="${daily_success}"></strong>
+</div>
+
+
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <strong th:text="${rename}"></strong>
+</div>
+
+
+<a th:href="@{/daily/create}" class="btn btn-primary">EKLE</a>
+<a th:href="@{/speedData}" class="btn btn-secondary">Hızlı Ekle</a>
+<a th:href="@{/speedDelete}" class="btn btn-danger">Bütün veriyi sil</a>
+<br><br>
+<table class="table table-hover table-striped" id="datalistregisterTable">
+    <thead>
+    <tr>
+        <th class="text-uppercase" th:text="#{daily.id}"></th>
+        <th class="text-uppercase" th:text="#{daily.header}"></th>
+        <th class="text-uppercase" th:text="#{daily.content}"></th>
+        <th class="text-uppercase" th:text="#{daily.email}"></th>
+        <th class="text-uppercase" th:text="#{daily.password}"></th>
+        <th class="text-uppercase" th:text="#{daily.date}"></th>
+        <th class="text-uppercase" th:text="#{daily.update}"></th>
+        <th class="text-uppercase" th:text="#{daily.show}"></th>
+        <th class="text-uppercase" th:text="#{daily.delete}"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${daily.id>0}" th:each="daily:${key_daily}">
+        <td th:text="${daily.id}"></td>
+        <td th:text="${daily.dailyHeader}"></td>
+        <td th:text="${daily.dailyContent}"></td>
+        <td th:text="${daily.email}"></td>
+        <td th:text="${daily.password}"></td>
+        <td th:text="${daily.createdDate}"></td>
+        <td><a class="btn btn-primary" th:href="@{/daily/update/{id}(id=${daily.id})}"> <i
+                class="fa-solid fa-wrench"></i> </a></td>
+        <td><a class="btn btn-success" th:href="@{/daily/find/{id}(id=${daily.id})}"><i
+                class="fa-solid fa-eye btn-sm"></i> </a></td>
+        <!-- <td><a th:href="@{/daily/delete/{id}(id=${register.id})}" th:onclick="if(!(confirm('silmek istiyor musunuz ?'))) return false" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a></td>-->
+        <td><a class="btn btn-danger"
+               th:onclick="'deleteSweetAlertRegister(\'/daily/delete/' + ${daily.id} +'\')'">
+            <i class="fa-solid fa-trash-can"></i></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- dataTables JS: paging and sorting -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.25/datatables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#datalistregisterTable").DataTable({
+            'aoColumnDefs': [{
+                'bSortable': false,
+                'aTargets': [-1] /* 1st one, start by the right */
+            }]
+        });
+    })
+</script>
+
+
+<!-- ends codes -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+
+<!--  Sweet Alert -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+    function deleteSweetAlertRegister(url) {
+        swal({
+            title: "Silmek istediğinizden emin misiniz?",
+            text: "Silindikten sonra tekrar geri alınamaz.",
+            icon: "warning",
+            buttons: ["İptal", "Sil"],
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
+                    swal("Kayıt başarılı bir şekilde silindi.", {
+                        icon: "success",
+                    });
+                    window.location.href = url;
+                } else {
+                    swal("İptal edildi.", {
+                        icon: "warning",
+                    });
+                }
+            });
+    }
+</script>
+</body>
+
+</html>
